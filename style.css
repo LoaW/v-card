@@ -31,6 +31,8 @@
     position: relative;
     left: 30%;
     top: -50px;
+    filter: drop-shadow(5px 5px 10px #000);
+
 
 }
 
@@ -44,10 +46,29 @@
     max-width: 200px;
 }
 .coordonate{
+    font-size: 12px;
     color: white;
     list-style-type: none;
     position: relative;
     top: -500px;
     right: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(74, 35, 214);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: .5em .75em;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgray;
 }
 
