@@ -1,0 +1,53 @@
+*, *::before, *::after
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card{
+    background-color: white;
+    background-image: url(assets/v-card-background.jpg);
+    background-repeat:no-repeat;
+    max-width: 800px;
+    max-height: 500px;
+
+    padding: 1rem;
+    border: 1px solid #777;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    max-width: 10%;
+    max-height: auto;
+}
+.menu{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.photo{
+    position: relative;
+    left: 30%;
+    top: -50px;
+
+}
+
+.info{
+    position: relative;
+    top: -420px;
+    left: 65%;
+}
+
+.description{
+    max-width: 200px;
+}
+.coordonate{
+    color: white;
+    list-style-type: none;
+    position: relative;
+    top: -500px;
+    right: 30px;
+}
+
